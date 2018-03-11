@@ -1,0 +1,58 @@
+
+1) How did viewing a difference between two versions help you spot the bug?
+
+It is helpful because on comparing the code I'm able to rectify various
+changes I made to the previous code that caused the current code to bug, like
+a typo, or a logic flaw, or a syntax error, etc. So it is a good thing to have
+the previous version available already.
+
+
+2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Sometimes we want to roll back to previous version of the code that actually
+suited better to our purpose, or it is just that we can make up our mind about
+what made us to make certain decisions which led us to where we currently are
+and how different it actually is than what we had thought.
+
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+The Pros:
+- each commit has a purpose.
+- you can manually commit offline unlike Google Docs.
+
+The Cons:
+
+- someone who is often forgetful of committing may end up not at all committing at
+  important logical breakpoints.
+- sometimes diff after a commit is just too big if not done as often as
+  required and affect legibility of the project.
+
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+VCS like Git is used for code that spans multiple files. Once one change is to
+be made to a file, it might happen that this change in one file must make
+sense to make changes to interdependent code saved in other files. So it makes
+to save relevant files in one commit, whereas Google Docs can already save
+each file automatically.
+
+
+5) How can you use the commands git log and git diff to view the history of files? 
+
+'git log' command helps view the list of commits with commit ID, Author, date
+and time of commit, and a commit message.
+'git diff' command helps compare the changes made to a file(s) in two
+consequent commits [the number of deletions, and the number of insertions]
+
+
+6) How might using version control make you more confident to make changes that could break something?
+
+Because I know I can rollback to previous state as was also told in the introduction
+video that Git as a VCS is a GIANT UNDO BUTTON. So experimenting won't harm.
+
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+
+GODDAMN ANYTHING & EVERYTHING! For Android course I should be working on, right now most likely.
+
