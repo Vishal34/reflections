@@ -1,0 +1,7 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+
+A '.git' directory gets added as soon as a repository is initialized. A repository is the collection of files which we want Git to keep track of.
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+We aim for 'one commit per logical change.' We should commit relevant files together. Staging area bridges the gap between working directory and the repository providing more control to the users.
