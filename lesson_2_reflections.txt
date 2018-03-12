@@ -9,3 +9,7 @@ We aim for 'one commit per logical change.' We should commit relevant files toge
 3) How can you use the staging area to make sure you have one commit per logical change?
 
 We commit only those files in the staging area which go together in the Git repository logically, and the rest of the files in staging area remain the same. We use 'git add <filename>' to add the file into the staging area. And then we do a 'git commit' to commit those changes into the Git repository and add a commit message to it.
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches help experimenting in new ways with current project to add new features or some similar purposes. We can later, if successful try to merge those changes into our master branch, or if unsuccessful discard the changes. Branches are convenient to use in that they provide labels to commits where diversion happens.
