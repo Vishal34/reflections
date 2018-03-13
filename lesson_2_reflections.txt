@@ -13,3 +13,7 @@ We commit only those files in the staging area which go together in the Git repo
 4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches help experimenting in new ways with current project to add new features or some similar purposes. We can later, if successful try to merge those changes into our master branch, or if unsuccessful discard the changes. Branches are convenient to use in that they provide labels to commits where diversion happens.
+
+5) How do the diagrams help you visualize the branch structure?
+
+When working on a project we are given a master branch which we split if we want to experiment with the project. And the branch structure may quickly get out of hand if too many branches have been made. It also helps visualize how to keep track of which branches contain which commits.
