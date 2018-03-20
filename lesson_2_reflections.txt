@@ -1,19 +1,23 @@
 1) What happens when you initialize a repository? Why do you need to do it?
 
-A '.git' directory gets added as soon as a repository is initialized. A repository is the collection of files which we want Git to keep track of.
+A '.git' directory gets added as soon as a repository is initialized. A repository is a collection of files which we want Git to keep track of.
 
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-We aim for 'one commit per logical change.' We should commit relevant files together. Staging area bridges the gap between working directory and the repository providing more control to the users.
+We aim for 'one commit per logical change.' We should commit relevant files together. Staging area bridges the gap between working directory and the repository by providing more control to the users.
 
 3) How can you use the staging area to make sure you have one commit per logical change?
 
-We commit only those files in the staging area which go together in the Git repository logically, and the rest of the files in staging area remain the same. We use 'git add <filename>' to add the file into the staging area. And then we do a 'git commit' to commit those changes into the Git repository and add a commit message to it.
+We commit only those files in the staging area which go together in the Git repository logically, and the rest of the files in staging area remain the same. We use 'git add <filename>' to add the file into the staging area. And then we do a 'git commit' to commit those changes into the Git repository and add a commit message to it. ALSO, we can compare the working directory with the staging area, and the staging area with the latest commit by using 'diff' command variants just to be sure of getting desired outcome. 
 
 4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-Branches help experimenting in new ways with current project to add new features or some similar purposes. We can later, if successful try to merge those changes into our master branch, or if unsuccessful discard the changes. Branches are convenient to use in that they provide labels to commits where diversion happens.
+Branches help experimenting in new ways with current project to add new features or some similar purposes. We can later, if successful try to merge those changes into our master branch, or if unsuccessful discard the changes (delete the branch). Branches are convenient to use in that they provide labels to commits where diversion happens.
 
 5) How do the diagrams help you visualize the branch structure?
 
 When working on a project we are given a master branch which we split if we want to experiment with the project. And the branch structure may quickly get out of hand if too many branches have been made. It also helps visualize how to keep track of which branches contain which commits.
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The commits made in the way till the current point / tip of both the branches are accessible by the newly formed commit as a result of merging of two branches. We represent it in the diagram the way we do is because we need changes committed from both these branches into our current working branch.
