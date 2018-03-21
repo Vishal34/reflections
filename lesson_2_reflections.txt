@@ -21,3 +21,7 @@ When working on a project we are given a master branch which we split if we want
 6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The commits made in the way till the current point / tip of both the branches are accessible by the newly formed commit as a result of merging of two branches. We represent it in the diagram the way we do is because we need changes committed from both these branches into our current working branch.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+If we always rely on Git's automatic merging then it can consolidate parts of code together which don't really make much sense or won't compile or run. If we always do merges manually then there are chances that two branches have nothing in common to arise a conflict.
