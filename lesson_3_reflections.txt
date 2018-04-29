@@ -6,4 +6,11 @@ A remote repository would be preferred when working on a team project, or when t
 
 2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-GitHub is a collaborative platform and each repository may have a number of contributors directly affecting the repository in some way. One may or may not want to automatically add those changes into their local repo, so it makes sense to always pull changes manually whenever the need might arise.
+GitHub is a collaborative platform and each repository may have a number of contributors directly affecting the repository in some way. One may or may not want to automatically add those changes into their local repo, so it makes sense to always pull changes manually whenever the need might arise. It might also be the case that Git on its own cannot decide which branches to pull and which to not, only the user knows this.
+
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork is Github exclusive feature. Fork is used when we want to copy someone's Github repository onto our Github account without having to clone it first locally on our machine and work on it thereby modifying it and have it for others to view.
+Cloning could be done when we want to have a copy of an existing local repository or Github repository to be saved locally on our machine.
+Branches operate only on single repository. We make a branch for some experimentation work.
+
